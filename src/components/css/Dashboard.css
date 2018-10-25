@@ -1,0 +1,47 @@
+html, body{
+    overflow-x: hidden;
+}
+.content{
+    background-color: #ecf2f1;
+    margin-left:1px;
+    padding:20px;
+    width:100%;
+    min-height: 100%;
+}
+
+.sidebar-icon{
+    margin-right: 10px;
+}
+
+.links{
+    margin-top:10px;
+    margin-left: auto;
+    margin-right:auto;
+    padding-left:20px;
+
+}
+.footer{
+    background-color: #18BC9C;
+    padding: 20px;
+    color:white;
+}
+.info-area{
+    height:100%;
+    width: 100%;
+    padding:10px;
+}
+
+#add-button{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .content{
+        padding: 10px;
+    }
+    .links{
+        padding-left: initial;
+    }
+}
